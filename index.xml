@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <dataIndex battleScribeVersion="1.13b" name="Crappy 40K" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <repositoryUrls>
-    <repositoryUrl>http://randomhit.org/battlescribe_data/40k/index.xml</repositoryUrl>
+    <repositoryUrl>http://raw.github.com/ickymachine/Battlescribe-Data-Files/master/index.xml</repositoryUrl>
   </repositoryUrls>
   <dataIndexEntries>
     <dataIndexEntry filePath="http://raw.github.com/ickymachine/Battlescribe-Data-Files/master/ChaosSpaceMarines.cat" dataType="catalogue" dataId="31cb62e5-6bed-41a7-a608-bcd345bc0454" dataName="Chaos Space Marines 6E" dataBattleScribeVersion="1.13b" dataRevision="1" />
