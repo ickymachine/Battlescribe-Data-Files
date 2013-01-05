@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <dataIndex battleScribeVersion="1.13b" name="Crappy 40K" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <repositoryUrls>
-    <repositoryUrl>http://raw.github.com/ickymachine/Battlescribe-Data-Files/master/index.xml</repositoryUrl>
+    <repositoryUrl>https://raw.github.com/ickymachine/Battlescribe-Data-Files/master/index.xml</repositoryUrl>
   </repositoryUrls>
   <dataIndexEntries>
-    <dataIndexEntry filePath="http://raw.github.com/ickymachine/Battlescribe-Data-Files/master/ChaosSpaceMarines.cat" dataType="catalogue" dataId="31cb62e5-6bed-41a7-a608-bcd345bc0454" dataName="Chaos Space Marines 6E" dataBattleScribeVersion="1.13b" dataRevision="1" />
-    <dataIndexEntry filePath="http://raw.github.com/ickymachine/Battlescribe-Data-Files/master/DarkEldar.cat" dataType="catalogue" dataId="b83c03f0-6354-4d81-afbe-72e4fd96ec2f" dataName="Dark Eldar 5E" dataBattleScribeVersion="1.13b" dataRevision="1" />
-    <dataIndexEntry filePath="http://raw.github.com/ickymachine/Battlescribe-Data-Files/master/Eldar.cat" dataType="catalogue" dataId="d137146b-6a5f-45e1-87ab-d9ba63fc45e5" dataName="Eldar 4E" dataBattleScribeVersion="1.13b" dataRevision="1" />
-    <dataIndexEntry filePath="http://raw.github.com/ickymachine/Battlescribe-Data-Files/master/GreyKnights.cat" dataType="catalogue" dataId="25584e4d-bec7-481f-afb9-5b85f9447056" dataName="Grey Knights 5E" dataBattleScribeVersion="1.13b" dataRevision="1" />
-    <dataIndexEntry filePath="http://raw.github.com/ickymachine/Battlescribe-Data-Files/master/Necrons.cat" dataType="catalogue" dataId="1dada422-d7e0-4121-888f-43609390acf8" dataName="Necrons 6E" dataBattleScribeVersion="1.13b" dataRevision="1" />
-    <dataIndexEntry filePath="http://raw.github.com/ickymachine/Battlescribe-Data-Files/master/Tyranids.cat" dataType="catalogue" dataId="ad76571f-bdbb-4b89-83e7-d7aa1dc1aa0d" dataName="Tyranids 5E" dataBattleScribeVersion="1.13b" dataRevision="1" />
+    <dataIndexEntry filePath="https://raw.github.com/ickymachine/Battlescribe-Data-Files/master/ChaosSpaceMarines.cat" dataType="catalogue" dataId="31cb62e5-6bed-41a7-a608-bcd345bc0454" dataName="Chaos Space Marines 6E" dataBattleScribeVersion="1.13b" dataRevision="1" />
+    <dataIndexEntry filePath="https://raw.github.com/ickymachine/Battlescribe-Data-Files/master/DarkEldar.cat" dataType="catalogue" dataId="b83c03f0-6354-4d81-afbe-72e4fd96ec2f" dataName="Dark Eldar 5E" dataBattleScribeVersion="1.13b" dataRevision="1" />
+    <dataIndexEntry filePath="https://raw.github.com/ickymachine/Battlescribe-Data-Files/master/Eldar.cat" dataType="catalogue" dataId="d137146b-6a5f-45e1-87ab-d9ba63fc45e5" dataName="Eldar 4E" dataBattleScribeVersion="1.13b" dataRevision="1" />
+    <dataIndexEntry filePath="https://raw.github.com/ickymachine/Battlescribe-Data-Files/master/GreyKnights.cat" dataType="catalogue" dataId="25584e4d-bec7-481f-afb9-5b85f9447056" dataName="Grey Knights 5E" dataBattleScribeVersion="1.13b" dataRevision="1" />
+    <dataIndexEntry filePath="https://raw.github.com/ickymachine/Battlescribe-Data-Files/master/Necrons.cat" dataType="catalogue" dataId="1dada422-d7e0-4121-888f-43609390acf8" dataName="Necrons 6E" dataBattleScribeVersion="1.13b" dataRevision="1" />
+    <dataIndexEntry filePath="https://raw.github.com/ickymachine/Battlescribe-Data-Files/master/Tyranids.cat" dataType="catalogue" dataId="ad76571f-bdbb-4b89-83e7-d7aa1dc1aa0d" dataName="Tyranids 5E" dataBattleScribeVersion="1.13b" dataRevision="1" />
    </dataIndexEntries>
 </dataIndex>
