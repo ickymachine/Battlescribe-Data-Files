@@ -10,5 +10,6 @@
     <dataIndexEntry filePath="/GreyKnights.cat" dataType="catalogue" dataId="25584e4d-bec7-481f-afb9-5b85f9447056" dataName="Grey Knights 5E" dataBattleScribeVersion="1.13b" dataRevision="1" />
     <dataIndexEntry filePath="/Necrons.cat" dataType="catalogue" dataId="1dada422-d7e0-4121-888f-43609390acf8" dataName="Necrons 6E" dataBattleScribeVersion="1.13b" dataRevision="1" />
     <dataIndexEntry filePath="/Tyranids.cat" dataType="catalogue" dataId="ad76571f-bdbb-4b89-83e7-d7aa1dc1aa0d" dataName="Tyranids 5E" dataBattleScribeVersion="1.13b" dataRevision="1" />
+    <dataIndexEntry filePath="/Warhammer 40k.gst.zip" dataType="gamesystem" dataId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" dataName="Warhammer 40,000 6th Edition" dataBattleScribeVersion="1.13b" dataRevision="14"/>
    </dataIndexEntries>
 </dataIndex>
