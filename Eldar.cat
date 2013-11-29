@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d137146b-6a5f-45e1-87ab-d9ba63fc45e5" revision="35" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Eldar 6th Edition" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d137146b-6a5f-45e1-87ab-d9ba63fc45e5" revision="36" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Eldar 6th Edition" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="d6eb5dcf-4a47-4729-b6d3-db61edfd3b6b" name="Asurmen (Phoenix Lord)" points="220.0" categoryId="485123232344415441232323" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries>
@@ -498,6 +498,18 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="fdbcb3eb-a891-dc79-3024-8d2c3aa42c85" name="Pulse Laser" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d2e123d4-5a76-28dd-646b-7612c64bd5fa" targetId="ecf1225a-2155-b348-a979-f68d62a298d4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
       </entries>
       <entryGroups>
         <entryGroup id="bcc675d3-fc54-4dcc-d0b6-b5cc71127472" name="Weapons" defaultEntryId="8c111ff8-3d39-a4dd-730d-a7057b2cf142" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -558,9 +570,6 @@
       </profiles>
       <links>
         <link id="861b2ca1-2ccb-5b13-c2ea-eca0d23d0045" targetId="5eca5933-7320-30e7-65c5-0acab3118c60" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b9a16033-885f-4829-e0cf-d112a41dc081" targetId="ecf1225a-2155-b348-a979-f68d62a298d4" linkType="profile">
           <modifiers/>
         </link>
       </links>
