@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d137146b-6a5f-45e1-87ab-d9ba63fc45e5" revision="36" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Eldar 6th Edition" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d137146b-6a5f-45e1-87ab-d9ba63fc45e5" revision="37" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Eldar 6th Edition" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="d6eb5dcf-4a47-4729-b6d3-db61edfd3b6b" name="Asurmen (Phoenix Lord)" points="220.0" categoryId="485123232344415441232323" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries>
