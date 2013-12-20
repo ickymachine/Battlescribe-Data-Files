@@ -4746,7 +4746,7 @@ This rule also confers the Outflank special rule (see page 40).</description>
         <entry id="8e65bf4f-6f28-8d39-a26a-8b266478e307" name="Wraithblade" points="32.0" categoryId="(No Category)" type="upgrade" minSelections="5" maxSelections="10" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups>
-            <entryGroup id="9654c746-cbf7-036f-5c0c-3b41a5bda713" name="Weapon" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true">
+            <entryGroup id="9654c746-cbf7-036f-5c0c-3b41a5bda713" name="Weapon" defaultEntryId="ffbf1de2-f99b-8679-5403-4f652817c49f" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true">
               <entries>
                 <entry id="ffbf1de2-f99b-8679-5403-4f652817c49f" name="Two Ghostswords" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                   <entries/>
@@ -4838,7 +4838,7 @@ This rule also confers the Outflank special rule (see page 40).</description>
         <entry id="698a2b88-fae9-eb9e-857c-bd3ffa30b25e" name="Wraithblade" points="32.0" categoryId="(No Category)" type="upgrade" minSelections="5" maxSelections="10" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups>
-            <entryGroup id="3fdd475c-0906-8954-a86c-46289ff9926e" name="Weapon" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true">
+            <entryGroup id="3fdd475c-0906-8954-a86c-46289ff9926e" name="Weapon" defaultEntryId="5d0ff986-ea59-9446-16a2-3c3cc4ef5c57" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true">
               <entries>
                 <entry id="5d0ff986-ea59-9446-16a2-3c3cc4ef5c57" name="Two Ghostswords" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                   <entries/>
@@ -4930,7 +4930,7 @@ This rule also confers the Outflank special rule (see page 40).</description>
         <entry id="05f003ee-01f6-5e9b-d19e-3deec8441ef6" name="Wraithguard" points="32.0" categoryId="(No Category)" type="upgrade" minSelections="5" maxSelections="10" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups>
-            <entryGroup id="35d7322d-3218-2a50-b0c9-d276c21a48a6" name="Weapon" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true">
+            <entryGroup id="35d7322d-3218-2a50-b0c9-d276c21a48a6" name="Weapon" defaultEntryId="55ea5def-ba37-3bea-d629-7d1b94bfdc9e" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true">
               <entries>
                 <entry id="55ea5def-ba37-3bea-d629-7d1b94bfdc9e" name="Wraithcannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                   <entries/>
@@ -5019,7 +5019,7 @@ This rule also confers the Outflank special rule (see page 40).</description>
         <entry id="70c0a9bf-3bcf-49d7-b268-dcb6233d4947" name="Wraithguard" points="32.0" categoryId="(No Category)" type="upgrade" minSelections="5" maxSelections="10" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups>
-            <entryGroup id="79fa1119-c5f5-8e10-9b36-92dd9433c8ad" name="Weapon" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true">
+            <entryGroup id="79fa1119-c5f5-8e10-9b36-92dd9433c8ad" name="Weapon" defaultEntryId="0c17e139-c9a0-6367-5965-6fd0683f57b7" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true">
               <entries>
                 <entry id="0c17e139-c9a0-6367-5965-6fd0683f57b7" name="Wraithcannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                   <entries/>
