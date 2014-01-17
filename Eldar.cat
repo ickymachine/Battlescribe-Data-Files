@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d137146b-6a5f-45e1-87ab-d9ba63fc45e5" revision="37" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Eldar 6th Edition" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d137146b-6a5f-45e1-87ab-d9ba63fc45e5" revision="38" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Eldar 6th Edition" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="d6eb5dcf-4a47-4729-b6d3-db61edfd3b6b" name="Asurmen (Phoenix Lord)" points="220.0" categoryId="485123232344415441232323" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries>
@@ -4746,7 +4746,7 @@ This rule also confers the Outflank special rule (see page 40).</description>
         <entry id="8e65bf4f-6f28-8d39-a26a-8b266478e307" name="Wraithblade" points="32.0" categoryId="(No Category)" type="upgrade" minSelections="5" maxSelections="10" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups>
-            <entryGroup id="9654c746-cbf7-036f-5c0c-3b41a5bda713" name="Weapon" defaultEntryId="ffbf1de2-f99b-8679-5403-4f652817c49f" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true">
+            <entryGroup id="9654c746-cbf7-036f-5c0c-3b41a5bda713" name="Weapon" defaultEntryId="ffbf1de2-f99b-8679-5403-4f652817c49f" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
               <entries>
                 <entry id="ffbf1de2-f99b-8679-5403-4f652817c49f" name="Two Ghostswords" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                   <entries/>
@@ -4838,7 +4838,7 @@ This rule also confers the Outflank special rule (see page 40).</description>
         <entry id="698a2b88-fae9-eb9e-857c-bd3ffa30b25e" name="Wraithblade" points="32.0" categoryId="(No Category)" type="upgrade" minSelections="5" maxSelections="10" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups>
-            <entryGroup id="3fdd475c-0906-8954-a86c-46289ff9926e" name="Weapon" defaultEntryId="5d0ff986-ea59-9446-16a2-3c3cc4ef5c57" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true">
+            <entryGroup id="3fdd475c-0906-8954-a86c-46289ff9926e" name="Weapon" defaultEntryId="5d0ff986-ea59-9446-16a2-3c3cc4ef5c57" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
               <entries>
                 <entry id="5d0ff986-ea59-9446-16a2-3c3cc4ef5c57" name="Two Ghostswords" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                   <entries/>
@@ -4869,7 +4869,16 @@ This rule also confers the Outflank special rule (see page 40).</description>
                 </entry>
               </entries>
               <entryGroups/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="e2eeb75a-b954-6fc3-6e8c-2d948907a2ff" incrementChildId="698a2b88-fae9-eb9e-857c-bd3ffa30b25e" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="e2eeb75a-b954-6fc3-6e8c-2d948907a2ff" incrementChildId="698a2b88-fae9-eb9e-857c-bd3ffa30b25e" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <links>
                 <link id="83486757-6afa-ccd6-89a9-502fcc3f2882" targetId="97364883-5197-22d1-2e68-754b451cb37e" linkType="rule">
                   <modifiers/>
