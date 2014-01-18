@@ -4408,7 +4408,7 @@ miasma. If it does so, at the Initiative 1 step, all enemy units engaged in the 
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="71e41640-fef4-a7cb-a836-bc20efe21eaa" name="Melee Bio-weapons (replace any pair of scything talons)" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+    <entryGroup id="71e41640-fef4-a7cb-a836-bc20efe21eaa" name="Melee Bio-weapons (replace any pair of scything talons)" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
       <entries>
         <entry id="a1d3e449-2c20-c5dc-fabc-4e763cd7345f" name="Rending claws" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
