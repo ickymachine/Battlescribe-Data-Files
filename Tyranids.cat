@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad76571f-bdbb-4b89-83e7-d7aa1dc1aa0d" revision="25" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Tyranids 6th Ed" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad76571f-bdbb-4b89-83e7-d7aa1dc1aa0d" revision="26" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Tyranids 6th Ed (2014)" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a1edfbc3-753f-4b68-85e2-746190f2a335" name="Biovore Brood" points="0.0" categoryId="486561767920537570706f727423232344415441232323" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries>
@@ -588,38 +588,14 @@ Initiative test. If the test is passed, all is well – a shouted warning has ca
         </entry>
         <entry id="f503f9c2-9333-4904-83d5-c068e260faa0" name="May add a Broodlord" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries>
-            <entry id="529e2fcc-539e-4e8e-b174-bb5706da5e2a" name="May take scything talons" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="93ed909b-a8c8-9d41-488a-dadd5eb5c99d" name="May take scything talons" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="78a99f01-179c-1f08-86f8-40bf809641fa" targetId="5bd51a29-6ef6-042d-035d-1ae378ed525a" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="2f43f66c-9ed2-859b-dc0a-4ba236005e47" name="Adrenal glands" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="7202e52f-2925-abd7-2222-5bf89a1b49e6" targetId="be0f3959-9f79-e038-bd2c-abddc0fc1c0b" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="1729545b-76e4-274f-df16-65843410a9de" name="Toxin sacs" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="e2129c5d-3c3b-2dda-0a7d-cfdd5454fee2" targetId="4f80b2ee-5b37-723f-8b8c-5d729d1f446a" linkType="entry">
+                <link id="f8fac6b9-2329-ff7c-4cbc-00d02c090bec" targetId="5bd51a29-6ef6-042d-035d-1ae378ed525a" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -647,7 +623,12 @@ Initiative test. If the test is passed, all is well – a shouted warning has ca
                 <characteristic characteristicId="5361766523232344415441232323" name="Save" value="4+"/>
                 <characteristic characteristicId="506723232344415441232323" name="Pg" value="40"/>
               </characteristics>
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="4123232344415441232323" value="1" repeat="true" numRepeats="1" incrementParentId="f503f9c2-9333-4904-83d5-c068e260faa0" incrementChildId="93ed909b-a8c8-9d41-488a-dadd5eb5c99d" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <links>
@@ -1181,29 +1162,31 @@ Attack. Note that Wounds caused by its Hammer of Wrath, acid blood or tail biomo
             </link>
           </links>
         </entry>
-        <entry id="a7f66b39-3d89-6ee1-3fef-b15dc6ddc416" name="May take any of the following" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      </entries>
+      <entryGroups>
+        <entryGroup id="516565d7-e04e-99d3-0c58-513001c1182a" name="May take any of the following" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
           <entries>
-            <entry id="c3882087-0681-49d8-5cae-f07dbe739d7f" name="Prehensile pincer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="eeb14756-e6f4-2da4-b396-4ac6de276b58" name="Prehensile pincer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="d4a929b0-57fe-e66a-3562-cdfafc28924f" targetId="abb7a282-d806-9054-589d-28dfc8bb18cf" linkType="profile">
+                <link id="3f1b7345-0417-924f-7467-038ec8fa720b" targetId="abb7a282-d806-9054-589d-28dfc8bb18cf" linkType="profile">
                   <modifiers/>
                 </link>
-                <link id="9e1c321a-0cbd-2eca-31c6-8becd68769b4" targetId="9136c522-29b5-7bc2-5723-d85e91b52958" linkType="rule">
+                <link id="576e7e9d-d853-0eef-924d-9b6579de4944" targetId="9136c522-29b5-7bc2-5723-d85e91b52958" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
             </entry>
-            <entry id="c2dfe576-c965-5e6c-3679-f3bebc496866" name="Wings" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="eb0703c2-c9ee-aebb-27f5-e8a14390cd06" name="Wings" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules>
-                <rule id="8bbfe44a-6396-7d39-6d64-3a6a45fc1233" name="Wings" hidden="false" page="0">
+                <rule id="894bcd9d-09c6-6979-954e-e2bd0acd2c3c" name="Wings" hidden="false" page="0">
                   <description>If a Monstrous Creature has this biomorph, its unit type is Flying Monstrous Creature.</description>
                   <modifiers/>
                 </rule>
@@ -1214,12 +1197,9 @@ Attack. Note that Wounds caused by its Hammer of Wrath, acid blood or tail biomo
           </entries>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules>
         <rule id="21662f20-dbbc-3705-1ca9-0f2dcdc32093" name="Psyker (Mastery Level 2)" hidden="false" page="0">
@@ -1242,7 +1222,7 @@ Attack. Note that Wounds caused by its Hammer of Wrath, acid blood or tail biomo
             <characteristic characteristicId="506723232344415441232323" name="Pg"/>
           </characteristics>
           <modifiers>
-            <modifier type="set" field="556e6974205479706523232344415441232323" value="Flying Monstrous Creature (character)" repeat="true" numRepeats="1" incrementParentId="62ea7909-c97f-4266-a8c7-7a053fd8937d" incrementChildId="c2dfe576-c965-5e6c-3679-f3bebc496866" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="556e6974205479706523232344415441232323" value="Flying Monstrous Creature (character)" repeat="true" numRepeats="1" incrementParentId="62ea7909-c97f-4266-a8c7-7a053fd8937d" incrementChildId="eb0703c2-c9ee-aebb-27f5-e8a14390cd06" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -3181,7 +3161,7 @@ for any reason.</description>
                 </link>
               </links>
             </entry>
-            <entry id="0814a375-7a9f-0788-fe68-f0f4c890fcd2" name="One model in the unit may take an item from Basic Bio-cannons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="0814a375-7a9f-0788-fe68-f0f4c890fcd2" name="One model in the unit may take an item from Basic Bio-cannons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -3359,7 +3339,7 @@ for any reason.</description>
       <entries>
         <entry id="6bffadba-e36c-a2cf-db4a-6d79a533c8a3" name="Tyrant Guard" points="50.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries>
-            <entry id="419f456c-801e-3a0b-b63a-75101a9a21aa" name="Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="419f456c-801e-3a0b-b63a-75101a9a21aa" name="Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries>
                 <entry id="f2fae98e-ade9-50c5-d863-d89b492788ac" name="Rending claws" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                   <entries/>
@@ -3377,11 +3357,11 @@ for any reason.</description>
                   <entries/>
                   <entryGroups/>
                   <modifiers>
-                    <modifier type="set" field="minSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="6bffadba-e36c-a2cf-db4a-6d79a533c8a3" incrementChildId="a370a3fe-ace0-e799-a722-f4189da1d57d" incrementField="selections" incrementValue="1.0">
+                    <modifier type="set" field="minSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="6bffadba-e36c-a2cf-db4a-6d79a533c8a3" incrementChildId="48722b1d-7fa8-f0f7-5bcf-f3c4bf674773" incrementField="selections" incrementValue="1.0">
                       <conditions/>
                       <conditionGroups/>
                     </modifier>
-                    <modifier type="set" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="6bffadba-e36c-a2cf-db4a-6d79a533c8a3" incrementChildId="a370a3fe-ace0-e799-a722-f4189da1d57d" incrementField="selections" incrementValue="1.0">
+                    <modifier type="set" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="6bffadba-e36c-a2cf-db4a-6d79a533c8a3" incrementChildId="48722b1d-7fa8-f0f7-5bcf-f3c4bf674773" incrementField="selections" incrementValue="1.0">
                       <conditions/>
                       <conditionGroups/>
                     </modifier>
@@ -3394,28 +3374,30 @@ for any reason.</description>
                     </link>
                   </links>
                 </entry>
-                <entry id="a370a3fe-ace0-e799-a722-f4189da1d57d" name="Any model may replace its scything talons with one of the following:" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              </entries>
+              <entryGroups>
+                <entryGroup id="48722b1d-7fa8-f0f7-5bcf-f3c4bf674773" name="Any model may replace its scything talons with one of the following" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                   <entries>
-                    <entry id="8f3b8bc4-f077-97c3-2a65-e684b18aa6cc" name="Crushing claws" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="0f396e76-b077-9c2a-4203-a2060bbc0aa5" name="Crushing claws" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles/>
                       <links>
-                        <link id="09758c29-fb8c-a95d-2904-69aa7a97ab46" targetId="17eb34c6-b207-3fca-d5f8-7812b2f3af5f" linkType="entry">
+                        <link id="b45a7c00-69ee-17bd-f18f-fafa678ab65b" targetId="17eb34c6-b207-3fca-d5f8-7812b2f3af5f" linkType="entry">
                           <modifiers/>
                         </link>
                       </links>
                     </entry>
-                    <entry id="bd81858a-55d0-324f-34a7-a9928dbc6222" name="Lash whip and bonesword" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="235aa527-1e39-9e91-baf5-f6ed7d876d38" name="Lash whip and bonesword" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles/>
                       <links>
-                        <link id="bfccd36c-4818-de2c-603d-495ecbb12805" targetId="52ad9d45-c714-da80-2ee5-11f12b5eab13" linkType="entry">
+                        <link id="9dc04bab-b105-6e3e-21ad-a6e6861ca0e9" targetId="52ad9d45-c714-da80-2ee5-11f12b5eab13" linkType="entry">
                           <modifiers/>
                         </link>
                       </links>
@@ -3423,12 +3405,9 @@ for any reason.</description>
                   </entries>
                   <entryGroups/>
                   <modifiers/>
-                  <rules/>
-                  <profiles/>
                   <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
+                </entryGroup>
+              </entryGroups>
               <modifiers/>
               <rules/>
               <profiles/>
@@ -3651,7 +3630,7 @@ Protective Carapace: +1 Toughness</description>
       <entries>
         <entry id="a82588fb-9ae9-4eb2-ab22-d9c85b6bd565" name="Zoanthrope" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries>
-            <entry id="1802daa2-4732-4513-dc80-9e51f8c85862" name="Warp Blast" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+            <entry id="1802daa2-4732-4513-dc80-9e51f8c85862" name="Warp Blast" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -3729,7 +3708,7 @@ Protective Carapace: +1 Toughness</description>
         </link>
       </links>
     </entry>
-    <entry id="be0f3959-9f79-e038-bd2c-abddc0fc1c0b" name="Adrenal Glands" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="be0f3959-9f79-e038-bd2c-abddc0fc1c0b" name="Adrenal Glands" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4065,7 +4044,7 @@ If a 1 or 2 is rolled, the beast comes crashing down to the ground - it suffers 
       <profiles/>
       <links/>
     </entry>
-    <entry id="8bb40b23-793e-9f3f-8515-d1abb8bdcce0" name="Rending Claws" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="8bb40b23-793e-9f3f-8515-d1abb8bdcce0" name="Rending Claws" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4077,7 +4056,7 @@ If a 1 or 2 is rolled, the beast comes crashing down to the ground - it suffers 
         </link>
       </links>
     </entry>
-    <entry id="5bd51a29-6ef6-042d-035d-1ae378ed525a" name="Scything Talons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="5bd51a29-6ef6-042d-035d-1ae378ed525a" name="Scything Talons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4238,7 +4217,7 @@ weapon.</description>
         </link>
       </links>
     </entry>
-    <entry id="7f508898-15d3-7a5d-d51c-18fa047b6761" name="The Horror" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="7f508898-15d3-7a5d-d51c-18fa047b6761" name="The Horror" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4268,7 +4247,7 @@ miasma. If it does so, at the Initiative 1 step, all enemy units engaged in the 
       <profiles/>
       <links/>
     </entry>
-    <entry id="4f80b2ee-5b37-723f-8b8c-5d729d1f446a" name="Toxin Sacs" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="4f80b2ee-5b37-723f-8b8c-5d729d1f446a" name="Toxin Sacs" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4280,7 +4259,7 @@ miasma. If it does so, at the Initiative 1 step, all enemy units engaged in the 
         </link>
       </links>
     </entry>
-    <entry id="0c54860d-5fac-aaf6-becd-ace0f8a36962" name="Warp Blast (Warp Charge 2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="0c54860d-5fac-aaf6-becd-ace0f8a36962" name="Warp Blast (Warp Charge 2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
