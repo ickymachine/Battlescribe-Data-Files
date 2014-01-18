@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad76571f-bdbb-4b89-83e7-d7aa1dc1aa0d" revision="29" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Tyranids 6th Ed (2014)" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad76571f-bdbb-4b89-83e7-d7aa1dc1aa0d" revision="30" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Tyranids 6th Ed (2014)" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a1edfbc3-753f-4b68-85e2-746190f2a335" name="Biovore Brood" points="0.0" categoryId="486561767920537570706f727423232344415441232323" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries>
@@ -322,18 +322,6 @@ Deathleaper is alive, that model’s Leadership is reduced by the result.</descr
                 </link>
               </links>
             </entry>
-            <entry id="f3db6544-4e23-8252-d660-8538e7d93fad" name="Bio-plasmic Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="fa3d34d6-35ad-9529-9de4-31a08a0f2290" targetId="3986c6d9-c9c2-97c4-84c4-1b4e688e7cdc" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
           </entries>
           <entryGroups/>
           <modifiers/>
@@ -377,6 +365,9 @@ that it uses this special rule.</description>
               <modifiers/>
             </link>
             <link id="675bf2cb-4984-c2f4-5d4c-f0ab0d3df88b" targetId="5bd51a29-6ef6-042d-035d-1ae378ed525a" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="da97e206-c961-c049-baf8-841ca9c9ee12" targetId="c877bdbf-9d8d-48c3-5e5a-d39cc26c4609" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -3882,6 +3873,9 @@ If a 1 or 2 is rolled, the beast comes crashing down to the ground - it suffers 
         <link id="8dc6c771-5c8c-617b-be48-63edb5c19a83" targetId="95a762e5-a17d-62cb-fd4b-2b88433926c1" linkType="profile">
           <modifiers/>
         </link>
+        <link id="3d8cefa0-cdf6-5f24-5ce9-7e3953ad0be9" targetId="73ef67c6-a1b4-43a3-16c9-06b36a6ecdbd" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="12d6e6e5-5b5e-7fc2-7383-00e07bd7e423" name="Leech Essence" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
@@ -4996,16 +4990,6 @@ Melee weapons, biomorphs, upgrades or special rules belonging to the owning mode
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3986c6d9-c9c2-97c4-84c4-1b4e688e7cdc" profileTypeId="576561706f6e23232344415441232323" name="Bio-plasmic cannon" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="52616e676523232344415441232323" name="Range"/>
-        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength"/>
-        <characteristic characteristicId="415023232344415441232323" name="AP"/>
-        <characteristic characteristicId="5479706523232344415441232323" name="Type"/>
-        <characteristic characteristicId="506723232344415441232323" name="Pg"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
     <profile id="b40c8faf-e5a2-da4e-3fd3-e461f75fe95c" profileTypeId="576561706f6e23232344415441232323" name="Bone mace" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="-"/>
@@ -5188,10 +5172,10 @@ Melee weapons, biomorphs, upgrades or special rules belonging to the owning mode
     </profile>
     <profile id="95a762e5-a17d-62cb-fd4b-2b88433926c1" profileTypeId="576561706f6e23232344415441232323" name="Lash whips" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="52616e676523232344415441232323" name="Range"/>
-        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength"/>
-        <characteristic characteristicId="415023232344415441232323" name="AP"/>
-        <characteristic characteristicId="5479706523232344415441232323" name="Type"/>
+        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="-"/>
+        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="User"/>
+        <characteristic characteristicId="415023232344415441232323" name="AP" value="-"/>
+        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Melee, Swiftstrike"/>
         <characteristic characteristicId="506723232344415441232323" name="Pg"/>
       </characteristics>
       <modifiers/>
