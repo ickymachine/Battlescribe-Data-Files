@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad76571f-bdbb-4b89-83e7-d7aa1dc1aa0d" revision="28" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Tyranids 6th Ed (2014)" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad76571f-bdbb-4b89-83e7-d7aa1dc1aa0d" revision="29" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Tyranids 6th Ed (2014)" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a1edfbc3-753f-4b68-85e2-746190f2a335" name="Biovore Brood" points="0.0" categoryId="486561767920537570706f727423232344415441232323" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries>
@@ -626,7 +626,7 @@ Initiative test. If the test is passed, all is well – a shouted warning has ca
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="a8ae0af3-e27b-454b-ae1d-3bb1a57206f6" incrementChildId="f503f9c2-9333-4904-83d5-c068e260faa0" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -2474,7 +2474,7 @@ If you choose to do so, no To Wound rolls are made for any of the Red Terror’s
         </entryGroup>
       </entryGroups>
       <modifiers>
-        <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="fe18bd79-bdfc-fda0-fedb-5af052d7a703" incrementField="selections" incrementValue="30.0">
+        <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="fe18bd79-bdfc-fda0-fedb-5af052d7a703" incrementField="selections" incrementValue="30.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
