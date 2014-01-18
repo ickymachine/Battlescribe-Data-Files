@@ -4410,7 +4410,7 @@ miasma. If it does so, at the Initiative 1 step, all enemy units engaged in the 
     </entryGroup>
     <entryGroup id="71e41640-fef4-a7cb-a836-bc20efe21eaa" name="Melee Bio-weapons (replace any pair of scything talons)" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
       <entries>
-        <entry id="a1d3e449-2c20-c5dc-fabc-4e763cd7345f" name="Rending claws" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="a1d3e449-2c20-c5dc-fabc-4e763cd7345f" name="Rending claws" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4422,7 +4422,7 @@ miasma. If it does so, at the Initiative 1 step, all enemy units engaged in the 
             </link>
           </links>
         </entry>
-        <entry id="b98c3b08-337c-9922-da5b-1b513a65db5c" name="Boneswords" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="b98c3b08-337c-9922-da5b-1b513a65db5c" name="Boneswords" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4434,7 +4434,7 @@ miasma. If it does so, at the Initiative 1 step, all enemy units engaged in the 
             </link>
           </links>
         </entry>
-        <entry id="7cfd7433-614d-b355-cdb2-622e2be088b0" name="Lash Whip and Bonesword" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="7cfd7433-614d-b355-cdb2-622e2be088b0" name="Lash Whip and Bonesword" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4451,9 +4451,9 @@ miasma. If it does so, at the Initiative 1 step, all enemy units engaged in the 
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="130f73fc-0f16-149e-c45d-30ff7d5c9c22" name="Monstrous Bio-cannons (replace any pair of scything talons)" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+    <entryGroup id="130f73fc-0f16-149e-c45d-30ff7d5c9c22" name="Monstrous Bio-cannons (replace any pair of scything talons)" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
       <entries>
-        <entry id="988f8482-0e31-769a-6f9b-f3d5055a631c" name="Twil-linked Deathspitter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="988f8482-0e31-769a-6f9b-f3d5055a631c" name="Twil-linked Deathspitter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4465,7 +4465,7 @@ miasma. If it does so, at the Initiative 1 step, all enemy units engaged in the 
             </link>
           </links>
         </entry>
-        <entry id="a08181fe-d1d3-5b2f-c439-1377de422195" name="Twin-linked devourer with brainleech worms" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="a08181fe-d1d3-5b2f-c439-1377de422195" name="Twin-linked devourer with brainleech worms" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4477,7 +4477,7 @@ miasma. If it does so, at the Initiative 1 step, all enemy units engaged in the 
             </link>
           </links>
         </entry>
-        <entry id="a0afff4a-bd32-1923-4bd3-27a3640558a0" name="Stranglethorn Cannon (one per model)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="a0afff4a-bd32-1923-4bd3-27a3640558a0" name="Stranglethorn Cannon (one per model)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4489,7 +4489,7 @@ miasma. If it does so, at the Initiative 1 step, all enemy units engaged in the 
             </link>
           </links>
         </entry>
-        <entry id="c4cdaa4f-c9a5-1c66-d703-9d1897ea69f6" name="Heavy Venom Cannon (one per model; cannot take with Stranglethorn Cannon)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="c4cdaa4f-c9a5-1c66-d703-9d1897ea69f6" name="Heavy Venom Cannon (one per model; cannot take with Stranglethorn Cannon)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
