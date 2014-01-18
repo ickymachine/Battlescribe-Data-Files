@@ -2215,63 +2215,7 @@ If you choose to do so, no To Wound rolls are made for any of the Red Terror’s
               </links>
             </entry>
           </entries>
-          <entryGroups>
-            <entryGroup id="1889fb14-ec92-2b19-1b90-c0fcf4720a7f" name="Weapon" defaultEntryId="cacef442-c35e-26cc-621e-13941e5ea05a" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-              <entries>
-                <entry id="cacef442-c35e-26cc-621e-13941e5ea05a" name="Fleshborer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="cac5d197-fa89-42f5-82c0-58fcb547ba25" targetId="783a558b-b512-0717-26c0-f97a500060e3" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-                <entry id="2968ad06-2507-a441-01ea-9873e1cbbeeb" name="Spinefists" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="e8bf8a7d-4606-781c-6da7-e799546ba670" targetId="3b7b00ba-bfbb-3e37-a8c5-b9962d4c70f6" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-                <entry id="c8836851-a32f-f612-6b94-7c73a7f0c6da" name="Spike Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="9e6dc7d7-eb40-82d6-e99b-c1da3df81722" targetId="3f7aa832-a40c-c978-3439-b56cff89f289" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-                <entry id="0a71f618-2932-e6ed-94db-2589d39ad423" name="Devourer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="a0b4b113-c9b6-8c60-2488-6a268e33f252" targetId="cac48800-a8d2-b893-a7bc-275903cdbb8b" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
@@ -2288,7 +2232,72 @@ If you choose to do so, no To Wound rolls are made for any of the Red Terror’s
           </links>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="c8042834-62bc-386d-b2da-63d9e6e24b76" name="Weapon" defaultEntryId="b69f6750-9439-da77-0813-bc0c44fb108b" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="b69f6750-9439-da77-0813-bc0c44fb108b" name="Fleshborer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="af1098b6-ae18-8aa0-2681-179bbbe2ec58" targetId="783a558b-b512-0717-26c0-f97a500060e3" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="97a262eb-5ca4-a64b-385e-2c6065f609ff" name="Spinefists" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b2077d88-8545-761e-2080-1da100cf376b" targetId="3b7b00ba-bfbb-3e37-a8c5-b9962d4c70f6" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="3a150f83-d6d2-e6f0-765a-999e6ed81179" name="Spike Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="e97efa77-8ef3-ffb2-06ef-84140de88d24" targetId="3f7aa832-a40c-c978-3439-b56cff89f289" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="e08992f1-f477-9457-5acf-adcf62da5dab" name="Devourer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="73cf45b7-06af-b5c2-c112-192c9a2db7bd" targetId="cac48800-a8d2-b893-a7bc-275903cdbb8b" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="83d1fae1-031e-4bb3-ad51-67405c9f5ff9" incrementChildId="fe18bd79-bdfc-fda0-fedb-5af052d7a703" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="83d1fae1-031e-4bb3-ad51-67405c9f5ff9" incrementChildId="fe18bd79-bdfc-fda0-fedb-5af052d7a703" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
@@ -2410,6 +2419,131 @@ If you choose to do so, no To Wound rolls are made for any of the Red Terror’s
           <modifiers/>
         </link>
         <link id="272b538b-2fd2-ffbf-24d6-e98271305871" targetId="8301f97e-5229-5c4b-bb19-cb6c2294e7e6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8f05974e-ee69-29d2-097e-b64665392798" name="Tervigon" points="195.0" categoryId="54726f6f707323232344415441232323" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="b1119bf9-e462-36bd-6f0c-3e0d235a4cf6" name="Close combat weapon" defaultEntryId="7c967627-33a2-db9b-01bd-a24e41fa663a" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="7c967627-33a2-db9b-01bd-a24e41fa663a" name="Scything talons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="71b5a6d6-31a9-0174-c7ba-23cece7d0e0b" targetId="5bd51a29-6ef6-042d-035d-1ae378ed525a" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="e12f0f21-22c9-4a88-5d19-2329c668474f" name="Crushing claws" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="6ce9b98f-00cb-debe-4299-0263504aa5d7" targetId="17eb34c6-b207-3fca-d5f8-7812b2f3af5f" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="f16db463-3a8d-5917-b568-377a0d97b812" name="Ranged weapon" defaultEntryId="586d7cf2-eca9-5621-8fe4-0ff9058d31c0" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="586d7cf2-eca9-5621-8fe4-0ff9058d31c0" name="Stinger salvo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d4437bf1-1315-2367-b35d-a58aa91a57a7" targetId="a3f87fc9-cd59-9935-fdc9-9ac1810a35d7" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="047612cc-33c4-0fe7-7ad5-83876fb52c3c" name="Cluster spines" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="833bb9f2-0247-dd7e-b6c8-7d8c8d49dd60" targetId="135061c4-6ad2-206d-96e1-bd6b8d7d10d8" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="fe18bd79-bdfc-fda0-fedb-5af052d7a703" incrementField="selections" incrementValue="30.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="5bf3b02c-7c72-d360-b1e5-370a4111f30a" name="Psyker (Mastery Level 1)" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c21743b6-d72f-560e-f9aa-99991fe1f909" profileTypeId="556e697423232344415441232323" name="Tervigon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Monstrous Creature"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="6"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="2"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="10"/>
+            <characteristic characteristicId="5361766523232344415441232323" name="Save" value="3+"/>
+            <characteristic characteristicId="506723232344415441232323" name="Pg"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8c71e57e-4299-3820-ef61-6689f5f8bd42" targetId="66c4fa39-3688-e9e8-3200-01aeef80279c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f611cd80-ce59-b51f-cda2-612405a2c98e" targetId="1f150736-b93d-4615-0094-84b53620e5c1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="eab1d5ce-4b96-2f95-cd4a-ce4e9edc6666" targetId="94f9875c-e6d4-9c8d-f410-fd9f9ef7bd47" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c7e17e22-97f0-72c4-ae37-db368d52c4dc" targetId="d584e916-0b52-752e-c213-1a72fd684b1d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c50ea8b3-43a3-2a93-5d88-625ea0bbc2cd" targetId="48cffb09-4791-1995-2ac1-b251952199a1" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="847f2803-f0ac-3c84-e4e4-a1b40e3cb015" targetId="08308096-a78b-9e14-89c5-b946d99b54bf" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="4d5b9db6-eae5-81a3-22b7-61a02ace94be" targetId="8f89ac76-fbf4-1a24-5be0-99a4651bf488" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="6ea82a5e-792e-617a-cb75-0d19fe9b7836" targetId="d6e3fcaa-bdef-e730-012a-0296b44dca08" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4b506e52-678a-ce02-33df-3ab53164297e" targetId="8301f97e-5229-5c4b-bb19-cb6c2294e7e6" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3476,131 +3610,6 @@ were an Independent Character. A Hive Tyrant (or the Swarmlord) in a unit that c
       <rules/>
       <profiles/>
       <links/>
-    </entry>
-    <entry id="8f05974e-ee69-29d2-097e-b64665392798" name="Tervigon" points="195.0" categoryId="54726f6f707323232344415441232323" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" page="0">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="b1119bf9-e462-36bd-6f0c-3e0d235a4cf6" name="Close combat weapon" defaultEntryId="7c967627-33a2-db9b-01bd-a24e41fa663a" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="7c967627-33a2-db9b-01bd-a24e41fa663a" name="Scything talons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="71b5a6d6-31a9-0174-c7ba-23cece7d0e0b" targetId="5bd51a29-6ef6-042d-035d-1ae378ed525a" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="e12f0f21-22c9-4a88-5d19-2329c668474f" name="Crushing claws" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="6ce9b98f-00cb-debe-4299-0263504aa5d7" targetId="17eb34c6-b207-3fca-d5f8-7812b2f3af5f" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="f16db463-3a8d-5917-b568-377a0d97b812" name="Ranged weapon" defaultEntryId="586d7cf2-eca9-5621-8fe4-0ff9058d31c0" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="586d7cf2-eca9-5621-8fe4-0ff9058d31c0" name="Stinger salvo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="d4437bf1-1315-2367-b35d-a58aa91a57a7" targetId="a3f87fc9-cd59-9935-fdc9-9ac1810a35d7" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="047612cc-33c4-0fe7-7ad5-83876fb52c3c" name="Cluster spines" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="833bb9f2-0247-dd7e-b6c8-7d8c8d49dd60" targetId="135061c4-6ad2-206d-96e1-bd6b8d7d10d8" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="fe18bd79-bdfc-fda0-fedb-5af052d7a703" incrementField="selections" incrementValue="30.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules>
-        <rule id="5bf3b02c-7c72-d360-b1e5-370a4111f30a" name="Psyker (Mastery Level 1)" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="c21743b6-d72f-560e-f9aa-99991fe1f909" profileTypeId="556e697423232344415441232323" name="Tervigon" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Monstrous Creature"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="6"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="2"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="10"/>
-            <characteristic characteristicId="5361766523232344415441232323" name="Save" value="3+"/>
-            <characteristic characteristicId="506723232344415441232323" name="Pg"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="8c71e57e-4299-3820-ef61-6689f5f8bd42" targetId="66c4fa39-3688-e9e8-3200-01aeef80279c" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="f611cd80-ce59-b51f-cda2-612405a2c98e" targetId="1f150736-b93d-4615-0094-84b53620e5c1" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="eab1d5ce-4b96-2f95-cd4a-ce4e9edc6666" targetId="94f9875c-e6d4-9c8d-f410-fd9f9ef7bd47" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c7e17e22-97f0-72c4-ae37-db368d52c4dc" targetId="d584e916-0b52-752e-c213-1a72fd684b1d" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c50ea8b3-43a3-2a93-5d88-625ea0bbc2cd" targetId="48cffb09-4791-1995-2ac1-b251952199a1" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="847f2803-f0ac-3c84-e4e4-a1b40e3cb015" targetId="08308096-a78b-9e14-89c5-b946d99b54bf" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="4d5b9db6-eae5-81a3-22b7-61a02ace94be" targetId="8f89ac76-fbf4-1a24-5be0-99a4651bf488" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="6ea82a5e-792e-617a-cb75-0d19fe9b7836" targetId="d6e3fcaa-bdef-e730-012a-0296b44dca08" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4b506e52-678a-ce02-33df-3ab53164297e" targetId="8301f97e-5229-5c4b-bb19-cb6c2294e7e6" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </entries>
   <rules/>
