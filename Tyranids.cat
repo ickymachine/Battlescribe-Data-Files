@@ -618,10 +618,19 @@ Initiative test. If the test is passed, all is well – a shouted warning has ca
             </link>
           </links>
         </entry>
-        <entry id="1915b084-97de-d401-921a-bb0a5b837980" name="Any model may take scything talons" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="1915b084-97de-d401-921a-bb0a5b837980" name="Any model may take scything talons" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="a8ae0af3-e27b-454b-ae1d-3bb1a57206f6" incrementChildId="aae4dc80-986f-41ad-be95-6baa1f9c6d46" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="a8ae0af3-e27b-454b-ae1d-3bb1a57206f6" incrementChildId="aae4dc80-986f-41ad-be95-6baa1f9c6d46" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <rules/>
           <profiles/>
           <links>
