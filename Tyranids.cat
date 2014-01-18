@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad76571f-bdbb-4b89-83e7-d7aa1dc1aa0d" revision="24" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Tyranids 6th Ed" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad76571f-bdbb-4b89-83e7-d7aa1dc1aa0d" revision="25" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Tyranids 6th Ed" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a1edfbc3-753f-4b68-85e2-746190f2a335" name="Biovore Brood" points="0.0" categoryId="486561767920537570706f727423232344415441232323" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries>
@@ -1219,27 +1219,7 @@ Attack. Note that Wounds caused by its Hammer of Wrath, acid blood or tail biomo
           <links/>
         </entry>
       </entries>
-      <entryGroups>
-        <entryGroup id="3d845b30-f129-47c9-9b4f-733b4dad05e2" name="Psychic Powers (choose 2)" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="2de717c7-1b90-3763-42cf-6ef74b0b4e5a" targetId="7f508898-15d3-7a5d-d51c-18fa047b6761" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="bf555e41-4cc4-d89b-a42a-a35d2feca201" targetId="12d6e6e5-5b5e-7fc2-7383-00e07bd7e423" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="24f98023-ed29-f28f-51cd-9911b9d2e49e" targetId="6651d880-1a88-6e13-1988-6259c0585d22" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="10e34e12-e644-4955-4e99-e6117711d309" targetId="c3c43035-a3ec-53f8-17cb-f5a1c4f9f54d" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
+      <entryGroups/>
       <modifiers/>
       <rules>
         <rule id="21662f20-dbbc-3705-1ca9-0f2dcdc32093" name="Psyker (Mastery Level 2)" hidden="false" page="0">
@@ -1256,7 +1236,7 @@ Attack. Note that Wounds caused by its Hammer of Wrath, acid blood or tail biomo
             <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
             <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
             <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
             <characteristic characteristicId="4c4423232344415441232323" name="LD" value="10"/>
             <characteristic characteristicId="5361766523232344415441232323" name="Save" value="3+"/>
             <characteristic characteristicId="506723232344415441232323" name="Pg"/>
@@ -1277,6 +1257,21 @@ Attack. Note that Wounds caused by its Hammer of Wrath, acid blood or tail biomo
           <modifiers/>
         </link>
         <link id="b2a646ae-28d2-ebc3-a1aa-ffb8b6ee8269" targetId="1f150736-b93d-4615-0094-84b53620e5c1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8ec691ea-c0bb-5fe3-dbb9-a1fc307bb9a0" targetId="08308096-a78b-9e14-89c5-b946d99b54bf" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="26d71382-42f1-d5e8-353a-0bd82ae88037" targetId="48cffb09-4791-1995-2ac1-b251952199a1" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="c5188b89-90a7-42db-d7ad-4fe85b3da0fd" targetId="130f73fc-0f16-149e-c45d-30ff7d5c9c22" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="847f6a98-e31f-44b0-8857-f83c62520565" targetId="71e41640-fef4-a7cb-a836-bc20efe21eaa" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="5fd4de17-7c5b-8cb2-e527-b02ac9fba86d" targetId="8f89ac76-fbf4-1a24-5be0-99a4651bf488" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -2598,47 +2593,6 @@ If you choose to do so, no To Wound rolls are made for any of the Red Terror’s
             </profile>
           </profiles>
           <links/>
-        </entry>
-        <entry id="76850b43-6050-469d-974f-bcacfeec81a4" name="Psychic Powers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="71db240a-e2e9-b7c6-918a-f2723aa5f73e" targetId="12d6e6e5-5b5e-7fc2-7383-00e07bd7e423" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="82dc0de8-963a-40d6-185d-c09e01070e26" targetId="c3c43035-a3ec-53f8-17cb-f5a1c4f9f54d" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="f5bcfa0f-f120-2ef4-0faa-874cc26e336b" targetId="7f508898-15d3-7a5d-d51c-18fa047b6761" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="e6556fa4-7b60-7e54-dfed-e61efece3516" targetId="6651d880-1a88-6e13-1988-6259c0585d22" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-          </links>
         </entry>
         <entry id="85b1d360-2257-c183-f597-c6625384884c" name="Swarm Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
@@ -4877,6 +4831,10 @@ FAQ: Feel No Pain can be used to resist a Wound suffered from Perils of the Warp
 charging enemies through difficult terrain but fight at their normal Initiative. In addition, they can be fired as a ranged weapon with the profile below.</description>
       <modifiers/>
     </rule>
+    <rule id="0240ae63-f651-b500-9971-42a656d3b59f" name="Fleshbane" hidden="false" page="0">
+      <description>If a model has this special rule, or is attacking with a Melee weapon that has this special rule, they always wound on a 2+ in close combat. Similarly, if a model makes a shooting attack with a weapon that has this special rule, they always wound on a 2+. In either case, this special rule has no effect against vehicles.</description>
+      <modifiers/>
+    </rule>
     <rule id="47bf5ebc-3620-e58c-35ae-8b1d9b3aa462" name="Furious Charge" hidden="false" book="40k Rulebook" page="37">
       <description>In a turn in which a model with this special rule charges into combat, it adds +1 to its Strength characteristic until the end of that pase. A model that has made a disordered charge that turn receives no benefit from Furious Charge (see page 27).</description>
       <modifiers/>
@@ -5142,10 +5100,6 @@ Melee weapons, biomorphs, upgrades or special rules belonging to the owning mode
       <modifiers/>
     </rule>
     <rule id="342f9c3d-4fa2-cd5d-ba74-93b292d58faa" name="Witchfire" hidden="false" page="0">
-      <modifiers/>
-    </rule>
-    <rule id="0240ae63-f651-b500-9971-42a656d3b59f" name="Fleshbane" hidden="false" page="0">
-      <description>If a model has this special rule, or is attacking with a Melee weapon that has this special rule, they always wound on a 2+ in close combat. Similarly, if a model makes a shooting attack with a weapon that has this special rule, they always wound on a 2+. In either case, this special rule has no effect against vehicles.</description>
       <modifiers/>
     </rule>
   </sharedRules>
