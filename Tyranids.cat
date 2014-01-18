@@ -626,6 +626,10 @@ Initiative test. If the test is passed, all is well – a shouted warning has ca
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <rules/>
           <profiles/>
