@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad76571f-bdbb-4b89-83e7-d7aa1dc1aa0d" revision="27" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Tyranids 6th Ed (2014)" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad76571f-bdbb-4b89-83e7-d7aa1dc1aa0d" revision="28" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Tyranids 6th Ed (2014)" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a1edfbc3-753f-4b68-85e2-746190f2a335" name="Biovore Brood" points="0.0" categoryId="486561767920537570706f727423232344415441232323" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries>
@@ -521,7 +521,7 @@ Initiative test. If the test is passed, all is well – a shouted warning has ca
                 </link>
               </links>
             </entry>
-            <entry id="deb8e74c-519c-daaf-f777-10ce14646f2d" name="Rending Claws" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="deb8e74c-519c-daaf-f777-10ce14646f2d" name="Rending Claws" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -529,18 +529,6 @@ Initiative test. If the test is passed, all is well – a shouted warning has ca
               <profiles/>
               <links>
                 <link id="d7cd1faf-b1ae-ba7f-3ea3-ecb2b002d5d1" targetId="8bb40b23-793e-9f3f-8515-d1abb8bdcce0" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="db19d105-df05-0c68-97b4-f7c52f6c4152" name="May take scything talons" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="3eadb396-5434-0d65-96ce-3f715704a265" targetId="5bd51a29-6ef6-042d-035d-1ae378ed525a" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -564,14 +552,7 @@ Initiative test. If the test is passed, all is well – a shouted warning has ca
                 <characteristic characteristicId="5361766523232344415441232323" name="Save" value="5+"/>
                 <characteristic characteristicId="506723232344415441232323" name="Pg" value="40"/>
               </characteristics>
-              <modifiers>
-                <modifier type="increment" field="4123232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="aae4dc80-986f-41ad-be95-6baa1f9c6d46" childId="db19d105-df05-0c68-97b4-f7c52f6c4152" field="selections" type="at least" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
             </profile>
           </profiles>
           <links>
@@ -587,20 +568,7 @@ Initiative test. If the test is passed, all is well – a shouted warning has ca
           </links>
         </entry>
         <entry id="f503f9c2-9333-4904-83d5-c068e260faa0" name="May add a Broodlord" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries>
-            <entry id="93ed909b-a8c8-9d41-488a-dadd5eb5c99d" name="May take scything talons" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="f8fac6b9-2329-ff7c-4cbc-00d02c090bec" targetId="5bd51a29-6ef6-042d-035d-1ae378ed525a" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+          <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
@@ -623,12 +591,7 @@ Initiative test. If the test is passed, all is well – a shouted warning has ca
                 <characteristic characteristicId="5361766523232344415441232323" name="Save" value="4+"/>
                 <characteristic characteristicId="506723232344415441232323" name="Pg" value="40"/>
               </characteristics>
-              <modifiers>
-                <modifier type="increment" field="4123232344415441232323" value="1" repeat="true" numRepeats="1" incrementParentId="f503f9c2-9333-4904-83d5-c068e260faa0" incrementChildId="93ed909b-a8c8-9d41-488a-dadd5eb5c99d" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
             </profile>
           </profiles>
           <links>
@@ -651,6 +614,18 @@ Initiative test. If the test is passed, all is well – a shouted warning has ca
               <modifiers/>
             </link>
             <link id="eb347b0d-3662-6883-646d-46084d2d62df" targetId="48cffb09-4791-1995-2ac1-b251952199a1" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="1915b084-97de-d401-921a-bb0a5b837980" name="Any model may take scything talons" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="37d0c19c-93fb-583c-b3b0-c9d57ca225ae" targetId="5bd51a29-6ef6-042d-035d-1ae378ed525a" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -2247,7 +2222,7 @@ If you choose to do so, no To Wound rolls are made for any of the Red Terror’s
                 </link>
               </links>
             </entry>
-            <entry id="97a262eb-5ca4-a64b-385e-2c6065f609ff" name="Spinefists" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="97a262eb-5ca4-a64b-385e-2c6065f609ff" name="Spinefists" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2457,9 +2432,9 @@ If you choose to do so, no To Wound rolls are made for any of the Red Terror’s
           <modifiers/>
           <links/>
         </entryGroup>
-        <entryGroup id="f16db463-3a8d-5917-b568-377a0d97b812" name="Ranged weapon" defaultEntryId="586d7cf2-eca9-5621-8fe4-0ff9058d31c0" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="-1" collective="false">
+        <entryGroup id="96e6d977-d0ef-e10b-508c-2270afd80605" name="Ranged weapon" defaultEntryId="206e0e4c-489a-4100-211f-3a0e8e8f777e" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="-1" collective="false">
           <entries>
-            <entry id="586d7cf2-eca9-5621-8fe4-0ff9058d31c0" name="Stinger salvo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="206e0e4c-489a-4100-211f-3a0e8e8f777e" name="Stinger salvo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2471,7 +2446,7 @@ If you choose to do so, no To Wound rolls are made for any of the Red Terror’s
                 </link>
               </links>
             </entry>
-            <entry id="047612cc-33c4-0fe7-7ad5-83876fb52c3c" name="Cluster spines" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="e4ff164e-4489-8546-53d3-3372807d05ec" name="Cluster spines" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
