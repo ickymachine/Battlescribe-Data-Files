@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad76571f-bdbb-4b89-83e7-d7aa1dc1aa0d" revision="30" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Tyranids 6th Ed (2014)" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad76571f-bdbb-4b89-83e7-d7aa1dc1aa0d" revision="31" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.13b" name="Tyranids 6th Ed (2014)" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a1edfbc3-753f-4b68-85e2-746190f2a335" name="Biovore Brood" points="0.0" categoryId="486561767920537570706f727423232344415441232323" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries>
@@ -2312,28 +2312,28 @@ If you choose to do so, no To Wound rolls are made for any of the Red Terror’s
           <modifiers/>
           <links/>
         </entryGroup>
-        <entryGroup id="75ac52e5-cf7d-8e83-0e90-c03d3c1b64c4" name="Ranged weapon" defaultEntryId="41a4ab33-4cef-bd9c-8e40-dd4354d9b2de" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="-1" collective="false">
+        <entryGroup id="d3f707d2-3cd8-616a-e7ff-393f6ace03e1" name="Ranged weapon" defaultEntryId="dc903718-bea4-f6e9-f158-02a3398efa38" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
           <entries>
-            <entry id="41a4ab33-4cef-bd9c-8e40-dd4354d9b2de" name="Stinger salvo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="dc903718-bea4-f6e9-f158-02a3398efa38" name="Stinger Salvo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="332df770-bdc2-0d5d-ed6f-baed4e369fc2" targetId="a3f87fc9-cd59-9935-fdc9-9ac1810a35d7" linkType="profile">
+                <link id="502bfeec-4ddd-ebdb-053d-45242803c5d2" targetId="a3f87fc9-cd59-9935-fdc9-9ac1810a35d7" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
             </entry>
-            <entry id="86ad89d0-640c-0c73-e2fa-6d031d70045d" name="Cluster spines" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="8960f374-a456-a9ee-dba0-75249c8f5a2a" name="Cluster spines" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="3b0d735c-c84e-1916-9329-ffba7b544787" targetId="135061c4-6ad2-206d-96e1-bd6b8d7d10d8" linkType="profile">
+                <link id="006746dd-38fe-b1da-4403-90944ed18cff" targetId="135061c4-6ad2-206d-96e1-bd6b8d7d10d8" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
@@ -2432,28 +2432,28 @@ If you choose to do so, no To Wound rolls are made for any of the Red Terror’s
           <modifiers/>
           <links/>
         </entryGroup>
-        <entryGroup id="96e6d977-d0ef-e10b-508c-2270afd80605" name="Ranged weapon" defaultEntryId="206e0e4c-489a-4100-211f-3a0e8e8f777e" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="-1" collective="false">
+        <entryGroup id="30276a94-efff-2e1d-f3bd-853a9fca2052" name="Ranged weapon" defaultEntryId="1eff696e-ba04-4936-06f9-a374c694edf9" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
           <entries>
-            <entry id="206e0e4c-489a-4100-211f-3a0e8e8f777e" name="Stinger salvo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="1eff696e-ba04-4936-06f9-a374c694edf9" name="Stinger Salvo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="d4437bf1-1315-2367-b35d-a58aa91a57a7" targetId="a3f87fc9-cd59-9935-fdc9-9ac1810a35d7" linkType="profile">
+                <link id="500e2078-2259-3b9f-c06a-acaeed68cd54" targetId="a3f87fc9-cd59-9935-fdc9-9ac1810a35d7" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
             </entry>
-            <entry id="e4ff164e-4489-8546-53d3-3372807d05ec" name="Cluster spines" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="1215847f-110e-2ee4-3694-644aeacee860" name="Cluster Spines" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="833bb9f2-0247-dd7e-b6c8-7d8c8d49dd60" targetId="135061c4-6ad2-206d-96e1-bd6b8d7d10d8" linkType="profile">
+                <link id="740e5cd9-5258-7eb7-d503-e5f5bdc2dee5" targetId="135061c4-6ad2-206d-96e1-bd6b8d7d10d8" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
@@ -2464,12 +2464,7 @@ If you choose to do so, no To Wound rolls are made for any of the Red Terror’s
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="fe18bd79-bdfc-fda0-fedb-5af052d7a703" incrementField="selections" incrementValue="30.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules>
         <rule id="5bf3b02c-7c72-d360-b1e5-370a4111f30a" name="Psyker (Mastery Level 1)" hidden="false" page="0">
           <modifiers/>
